@@ -14,4 +14,3 @@ def browser_management():
     )
 
     browser.config.timeout = float(os.getenv('selene.timeout', '3'))
-
