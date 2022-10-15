@@ -18,4 +18,3 @@ def test_with_param(browser_width, browser_height):
         s(".HeaderMenu-link--sign-in").click()
     else:
         pytest.fail("Неправильное разрешение браузера. Проверить входные параметры")
-
